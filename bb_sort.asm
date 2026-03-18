@@ -73,7 +73,7 @@ loop_end:
 	syscall
 
 	mov rax, 60
-	mov rdx, 0
+	mov rdi, 0
 	syscall
 
 section .bss

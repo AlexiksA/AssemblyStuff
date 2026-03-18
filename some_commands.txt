@@ -1,0 +1,7 @@
+strace ./<elf>
+gdb -tui ./<elf>
+
+nasm -f elf64 <.asm file> -o <.o file>
+ld <.o file> -o <elf file>
+
+Peep Makefile for the script i tried to make
